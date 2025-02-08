@@ -17,7 +17,7 @@ export default function ProfilePage() {
                 <img className="rounded-2xl bg-purple-950 h-10/16 w-full" src={currrentProfile?.image} alt={currrentProfile?.name} />
                 <div className="bg-purple-100 px-2 pt-4 rounded-b-2xl pb-10">
                     <div className=" mb-3 text-[18px] flex justify-between">
-                        <p className="font-extrabold text-[18px] text-purple-950 bg-purple-300 lg:px-2 rounded mr-4">{currrentProfile?.name}</p>
+                        <p className="font-extrabold text-[18px] text-purple-950 bg-purple-300 px-2 lg:px-2 rounded mr-4">{currrentProfile?.name}</p>
                         <p className="text-purple-700 font-bold bg-purple-200 px-2 rounded">{currrentProfile?.age} years</p>
                     </div>
                     <div className="mb-3 text-[18px] flex justify-between gp-[50%]">
