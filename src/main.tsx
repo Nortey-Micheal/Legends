@@ -14,12 +14,12 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
-    errorElement: <NoPagaeFound />
+    errorElement: <NoPageFound />
   },
   {
     path: '/profile/:profileId',
     element: <ProfilePage />,
-    errorElement: <NoPagaeFound />
+    errorElement: <NoPageFound />
   }
 ])
 
