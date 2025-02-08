@@ -13,7 +13,7 @@ export default function ProfilePage() {
     console.log(currrentProfile)
     return (
         <div>
-            <section className="border-2 max-w-[510px] border-violet-950 w-[95vw] bg-purple-50  rounded-2xl mx-auto mt-[10vh] ">
+            <section className="border-2 max-w-[510px] border-violet-950 w-[90vw] bg-purple-50  rounded-2xl mx-auto mt-[10vh] ">
                 <img className="rounded-2xl bg-purple-950 h-10/16 w-full" src={currrentProfile?.image} alt={currrentProfile?.name} />
                 <div className="bg-purple-100 px-2 pt-4 rounded-b-2xl pb-10">
                     <div className=" mb-3 text-[18px] flex justify-between">
