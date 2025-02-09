@@ -11,7 +11,7 @@ function App() {
   const maleStudents:pupil[] = profiles.filter((profile) => profile.gender == 'male')
 
   return (
-    <section className='text-purple-50 flex flex-col items-center max-w-5xl m-5 mx-auto'>
+    <section className='text-violet-950 flex flex-col items-center max-w-5xl m-5 mx-auto'>
       <h1 className='text-center underline text-2xl font-extrabold'>Pupils in Basic 6</h1>
       <div className='lg:flex mt-10'>
         <div className='mb-10 max-w-6xl w-lg mx-auto'>
